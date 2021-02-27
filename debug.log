@@ -1,0 +1,26 @@
+[0925/193234.905:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0925/193234.936:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0925/194812.912:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0925/195812.912:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0925/195812.912:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0925/200312.919:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0925/201435.948:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0925/201436.007:ERROR:exception_snapshot_win.cc(99)] thread ID 6060 not found in process
+[0925/210050.894:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0925/211050.922:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0925/211050.922:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0925/211550.894:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0925/213050.894:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0925/214550.896:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/100901.175:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/123359.086:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/124359.086:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/124359.086:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/124859.087:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/130359.087:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/131859.087:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/133359.265:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0926/134341.299:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0926/134341.299:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0926/134341.331:ERROR:exception_snapshot_win.cc(99)] thread ID 9868 not found in process
+[0926/134341.331:ERROR:exception_snapshot_win.cc(99)] thread ID 10656 not found in process

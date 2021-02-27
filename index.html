@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+
+
+<!-- <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script> -->
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyAemnzmb9nQBT5LngDsjOWSB2UqFefTFuU",
+    authDomain: "chatapp-ab212.firebaseapp.com",
+    databaseURL: "https://chatapp-ab212.firebaseio.com",
+    projectId: "chatapp-ab212",
+    storageBucket: "chatapp-ab212.appspot.com",
+    messagingSenderId: "968428882093",
+    appId: "1:968428882093:web:0196c92c670fd4072d1e24",
+    measurementId: "G-YY4W0QMW6C"
+  };
+  firebase.initializeApp(firebaseConfig);
+//   firebase.analytics();
+</script>
+</head>
+<body>
+    <!-- <h1 class="head">chat App </h1> -->
+    <div id="firstPage-main-div">
+          <h1 class="head">chat App </h1>
+
+      <div class="div-login-btn">
+        <button onclick="signIn(getDataFromSignINFunc)" class="login-btn">Log In with facebook</button>
+
+      </div>
+    </div>
+
+<div class="parent-chat" id="parent-chat">
+    <div class="main-chat-div">
+      <div class="frnd-list-header">
+        <div class="user-info"> 
+          <img class="user-pic" id="user-pic" src="user-icon.webp" alt="">
+          <p class="user-name" id="user-name">user name waqas</p> 
+          <button class="sign-out-btn" onclick="signout()">sign out</button>
+        </div> <hr>
+
+        <div class="frnd-list">
+           <ul class="list" id="list" >
+             <!-- <li class="list-li" id="list-li"><img class="frnds-pic" src="user-icon.webp" alt=""> <p class="frnds-name"> username</p></li> -->
+           </ul>
+            <!-- <ul class="list">
+            <li class="list-li"><img class="frnds-pic" src="user-icon.webp" alt=""> <p class="frnds-name"> username</p></li>
+          </ul> 
+          <ul class="list">
+            <li class="list-li"><img class="frnds-pic" src="user-icon.webp" alt=""> <p class="frnds-name"> username</p></li>
+          </ul> 
+          <ul class="list">
+            <li class="list-li"><img class="frnds-pic" src="user-icon.webp" alt=""> <p class="frnds-name"> username</p></li>
+          </ul>  -->
+          
+        </div>
+      </div> <hr>
+      <div class="msg-box">
+          <div class="chat-msg-header" id="chat-msg-header">
+            <img class="chat-box-pic" id="chat-box-pic" src="user-icon.webp" alt="">
+            <p class="chat-box-name" id="chat-box-name"> user name</p>
+          </div> <hr>
+          <div class="conversation" id="conversation">
+            <ul class="talking-list" id="talking-list">
+              <li class="talking"> <p class="talking-para">hello fjdsfdshflf fjkldfjkl</p></li>
+              
+            </ul>
+             
+          </div> <hr>
+          <div class="text-area-bottom">
+            <input class="write-msg" id="write-msg" type="text" placeholder="type message" size="60" >
+            <button class="send-btn" onclick="text()"> Send</button>
+          </div>
+      </div>
+    </div>
+</div>
+</body>
+
+
+
+<script src="app.js"></script>
+</html>
